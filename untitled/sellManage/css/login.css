@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.header {
+    width: 100%;
+    border-bottom: 1px solid #DEDEDE;
+    font-size: 1rem;
+    line-height: 3rem;
+    text-align: center;
+    background-color: #F7F7F8;
+}
+p {
+    width: 100%;
+    height: 6rem;
+    text-align: center;
+    line-height: 6rem;
+    font-size: 2rem;
+    color: #426374;
+}
+form {
+    width: 100%;
+}
+form .field{
+    width: 100%;
+    padding: 1rem 0.9rem;
+    background-color: #fff;
+    height: 3.5rem;
+    display: flex;
+    display: -webkit-flex;
+}
+form .field label,input {
+    display: inline-block;
+    width: 5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #6C6C6C;
+}
+label {
+    flex: 1;
+}
+input{
+    flex: 3;
+}
+form .field:first-child {
+    border-bottom: 0.5px solid #DEDEDE;
+}
+form button {
+    display: block;
+    width: 95%;
+    margin: 2rem auto;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    font-size: 1rem;
+    background-color: rgba(66,99,116,0.9);
+    color: #B9BCBD;
+    border-radius: 2px;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    font-size: 0.5rem;
+    line-height: 3rem;
+    text-align: center;
+    background-color: rgba(66,99,116,0.8);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    max-width: 640px;
+    min-width: 320px;
+}

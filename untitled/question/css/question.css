@@ -1,0 +1,108 @@
+@charset "UTF-8";
+.pad {
+  padding: 1.875rem 1.875em 0;
+}
+.pad1 {
+  padding-top: 1.875rem;
+  text-align: center;
+}
+.pad2 {
+  padding: 2.125rem 1.375rem;
+}
+.margin {
+  margin: 1.875rem 1.125rem;
+}
+.border {
+  border: 1px solid #f1f1f1;
+}
+header {
+  padding: 1.875rem 1.875em 0;
+}
+header h2 {
+  padding-bottom: 0.8rem;
+}
+header span {
+  font-size: 1.625rem;
+  color: #666;
+}
+header span#time {
+  margin-right: 1.25rem;
+}
+header img {
+  padding-top: 1.25rem;
+}
+.smart-form {
+  margin: 1.875rem 1.125rem;
+}
+.smart-form .substance {
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+}
+.smart-form .substance .content {
+  width: 100%;
+  position: relative;
+}
+.smart-form .substance .content:not(:last-child) {
+  border-bottom: 1px solid #f1f1f1;
+}
+.smart-form .substance .content .question {
+  width: 100%;
+  display: block;
+  padding: 2.125rem 1.375rem;
+}
+.smart-form .substance .content .question .num {
+  height: 2.625rem;
+  width: 3.4375rem;
+  background-color: #204c79;
+  font-size: 1.75rem;
+  line-height: 2.625rem;
+}
+.smart-form .substance .content .question .triangle {
+  box-sizing: content-box;
+  width: 0;
+  height: 0;
+  border-left: 1.3125rem solid #204c79;
+  border-top: 1.3125rem solid transparent;
+  border-bottom: 1.3125rem solid transparent;
+  margin-right: 1.25rem;
+}
+.smart-form .substance .content .question label {
+  font-size: 2.25rem;
+  vertical-align: text-bottom;
+}
+.smart-form .substance .content .option {
+  width: 100%;
+  display: block;
+  padding: 2.125rem 1.375rem;
+  border-top: 1px solid #f1f1f1;
+}
+.smart-form .substance .content .option input[type=text] {
+  width: 38rem;
+  margin: 0 auto;
+}
+.smart-form button {
+  width: 66.6%;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  margin: 1.875rem 16.7% 0;
+  font-size: 2.25rem;
+  color: #fff;
+  background-color: #58b0ff;
+  box-shadow: inset 0 -8px 8px #3fa4ff;
+  border: none;
+  border-radius: .9375rem;
+}
+.smart-form .answer {
+  padding: 2rem 1.375rem 0;
+}
+.smart-form .answer span {
+  color: #747474;
+  font-size: 1.875rem;
+  text-align: left;
+  display: block;
+  line-height: 3.5rem;
+}
+.smart-form .answer span.an {
+  color: #333;
+  font-weight: 600;
+}

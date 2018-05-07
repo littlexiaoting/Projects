@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+    background: #FFF;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.dateAndTime {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+}
+p{
+    text-align: center;
+    border-bottom: 1px solid #CCCBCB;
+    font-size: 1.2rem;
+}
+.Date {
+    flex: 2;
+}
+
+.bg {
+    background-color: rgba(10, 54, 85, 0.1);
+    color: #52707F;
+}
+
+.Time {
+    flex: 3;
+    padding-top: 14%;
+}
+#submit {
+    display: block;
+    width: 30%;
+    float: right;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-right: 35%;
+    text-align: center;
+    background-color: #52707F;
+    color: #fff;
+}

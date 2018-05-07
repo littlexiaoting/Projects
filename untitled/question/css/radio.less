@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+@form_checkbox_radio_border_color: #0052a5 ;
+@form_checkbox_radio_color: #204c79 ;
+
+.smart-form .input,
+.smart-form .radio{
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.smart-form .radio {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding-left: 3rem;
+  color: #555;
+  cursor: pointer;
+  font-size: 2.125rem;
+  padding-right:1.875rem;
+}
+.smart-form .radio input {
+  position: absolute;
+  left: -9999px;
+}
+
+.smart-form .radio i {
+  position: absolute;
+  //top: .1rem;
+  left: 0;
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  outline: 0;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.smart-form .radio i{
+  border-color: @form_checkbox_radio_border_color;
+}
+
+.smart-form .radio input+i:after {
+  position: absolute;
+  opacity: 0;
+  transition: opacity .1s;
+  -webkit-transition: opacity .1s;
+}
+
+.smart-form .radio input+i:after {
+  content: '';
+  top: .375rem;
+  left: .375rem;
+  width: 1.625rem;
+  height: 1.625rem;
+  border-radius: 50%;
+}
+
+.smart-form .radio input+i:after {
+  background-color: @form_checkbox_radio_color;
+}
+
+.smart-form .radio input:checked+i:after {
+  opacity: 1;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "react-music-player",
+  "version": "1.0.0",
+  "description": "music player builded by react",
+  "main": "app/index.js",
+  "dependencies": {
+    "react": "^15.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "music-player"
+  ],
+  "author": "xiaoting",
+  "license": "ISC"
+}

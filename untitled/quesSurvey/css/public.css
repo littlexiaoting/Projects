@@ -1,0 +1,93 @@
+@charset "UTF-8";
+.pad {
+  padding: 30px 30px;
+}
+input {
+  border: 1px solid #0052a5;
+  color: #555;
+}
+header {
+  width: 100%;
+  padding: 30px 30px;
+  background-color: #DAEDFE;
+  border: 2px solid #204c79;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+header .top {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+header .top img.logo {
+  position: absolute;
+  left: 0;
+  width: 14.5%;
+}
+header .top img.title {
+  width: 23%;
+}
+header .smart-form {
+  padding-top: 30px;
+  text-align: center;
+}
+header .smart-form label:not(first) {
+  margin-left: 10px;
+}
+header .smart-form input {
+  width: 65px;
+  height: 27px;
+  padding-left: 10px;
+}
+header .smart-form #tel {
+  width: 100px;
+}
+header .smart-form .address {
+  margin-right: 10px;
+}
+header .smart-form .address:not(#province) {
+  margin-left: 10px;
+}
+header .smart-form .radio {
+  color: #333;
+}
+section {
+  border: 2px solid #204c79;
+  border-top: 0;
+  padding: 20px 30px 30px;
+  line-height: 40px;
+}
+section .num {
+  height: 22px;
+  width: 30px;
+  background-color: #204c79;
+}
+section .triangle {
+  box-sizing: content-box;
+  width: 0;
+  height: 0;
+  border-left: 11px solid #204c79;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  margin-right: 10px;
+}
+section .bottom {
+  width: 100%;
+  text-align: center;
+}
+section .bottom button {
+  width: 26.5%;
+  height: 50px;
+  background-color: #0062C6;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 0 3px 3px 2px #204c79, inset 0 -4px 4px 1px #00438C;
+}
+section .bottom button:hover {
+  color: #333;
+  background-color: #58b0ff;
+  box-shadow: 0 3px 3px 1px #2372b9, 0 -4px 4px 1px #238eee inset;
+}

@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/*标题*/
+.header {
+    width: 100%;
+    background-color: #F7F7F8;
+    border-bottom: 1px solid #d9d4d2;
+}
+.header ul{
+    width: 100%;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    /*display: flex;*/
+    text-align: center;
+    font-size: 1rem;
+}
+.header .header_li{
+    font-size: 1.2rem;
+}
+/*标题结束*/
+
+/*订单类型*/
+.order {
+    width: 100%;
+    height: 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #d9d4d2;
+}
+.order ul {
+    display: flex;
+    display: -webkit-flex;
+}
+.order ul li {
+    flex: 25%;
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+.active {
+    color: #52707F;
+    border-bottom: 1px solid #52707F;
+}
+/*订单类型结束*/
+
+/*订单详情*/
+/*审核合计的公共样式*/
+.total {
+    float: right;
+    color: #52707F;
+}
+
+.order_list {
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.order_list .list_Title {
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 1rem;
+}
+
+.order_list .list_Title p {
+    display: inline-block;
+}
+
+
+.order_list > ul > li {
+    background-color: #fff;
+    margin-top: 0.6rem;
+    box-shadow: 0 1px 1px #D9D9D9;
+}
+
+.order_list li .list_Body {
+    background-color: rgba(66, 99, 116, 0.1);
+}
+
+.order_list li .list_Body li {
+    width: 100%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    padding: 0 1rem;
+
+}
+
+.order_list li .list_footer {
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 1rem;
+}
+
+.order_list li .list_footer i, span {
+    color: #FF5000;
+    font-weight: 600;
+}
+
+.order_list li .list_footer span {
+    padding-left: 0.3rem;
+}
+
+.more{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.9rem;
+    background: #EBEAEA;
+}
+/*订单详情结束*/
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/radio.css">
+    <link rel="stylesheet" href="css/cssReset.css">
+    <link rel="stylesheet" href="css/public.css">
+</head>
+<body>
+<header>
+    <div class="top">
+        <img class="logo" src="images/logo.jpg" />
+        <img class="title" src="images/title.jpg" />
+    </div>
+    <form action="#" class="smart-form">
+        <label for="name">姓名：</label><input type="text" id="name" placeholder="必填" required>
+        <label>性别：</label><label class="radio"><input type="radio" name="sex" value="1" checked><i></i>男</label><label class="radio"><input type="radio" name="sex" value="2"><i></i>女</label>
+        <label for="age">年龄：</label><input type="number" id="age" placeholder="必填" required>
+        <label for="tel">电话：</label><input type="tel" id="tel" placeholder="必填" required>
+        <label for="province">地址：</label><input class="address" type="text" id="province">省<input class="address" type="text" id="city">市<input class="address" type="text" id="area">区
+    </form>
+</header>
+<section>
+    <form action="" class="smart-form">
+        <filedset>
+            <span class="num">1</span><span class="triangle"></span><label>是否有支气管哮喘？</label><br>
+            <label class="radio">
+                <input type="radio" name="a">
+                <i></i>是</label>
+            <label class="radio">
+                <input type="radio" name="a">
+                <i></i>否</label>
+        </filedset>
+        <br>
+        <filedset>
+            <span class="num">22</span><span class="triangle"></span><label>是否有支气管哮喘？</label><br>
+            <label class="radio">
+                <input type="radio" name="b">
+                <i></i>是</label>
+            <label class="radio">
+                <input type="radio" name="b">
+                <i></i>否</label>
+        </filedset>
+        <br>
+        <div class="bottom">
+            <button type="submit">提交问卷</button>
+        </div>
+    </form>
+</section>
+
+
+
+
+</body>
+</html>

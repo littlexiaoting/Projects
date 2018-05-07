@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="header">
+    后台管理系统
+</div>
+<p>账户登录</p>
+<form id="loginForm" autocomplete="on" action="index.html">
+    <div class="field">
+        <label for="userName">账户</label>
+        <input type="text" id="userName" placeholder="账户名" required>
+    </div>
+    <div class="field">
+        <label for="pwd">密码</label>
+        <input type="password" id="pwd" placeholder="密码" required>
+    </div>
+    <button id="submit">登 录</button>
+</form>
+<div class="footer">
+    Copyright ©青木惠网络科技有限公司
+</div>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/layer/layer.js"></script>
+
+<script>
+    $(function () {
+        FastClick.attach(document.body);
+
+        $('#submit').click(function () {
+//            var $user = $.trim($("#userName").val());
+//            var $pwd = $.trim($("#pwd").val());
+        });
+
+    });
+
+</script>
+</body>
+</html>

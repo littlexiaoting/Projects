@@ -1,0 +1,24 @@
+{
+  "name": "ekola",
+  "version": "1.0.0",
+  "description": "my first package",
+  "main": "index.js",
+  "scripts": {
+    "test": "ekola",
+    "build": "babel src -d lib",
+    "script-name": "babel-node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/ManaStuDent/Ekola.git"
+  },
+  "author": "xiaoting",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
+}

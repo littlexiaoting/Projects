@@ -1,0 +1,12 @@
+{
+  "index.html": {
+    "resources": [
+      "js/castapp.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/style.css"
+    ],
+    "refer": []
+  }
+}

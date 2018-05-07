@@ -1,0 +1,99 @@
+@charset "UTF-8";
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  border-radius: 50%;
+  margin: 100px auto;
+  animation: fadeOut 1s infinite ease-in-out;
+  -webkit-animation: fadeOut 1s infinite ease-in-out;
+}
+
+@keyframes fadeOut {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.cardfan {
+  width: 560px;
+  height: 360px;
+  margin: 2em auto;
+  position: relative;
+  img {
+    position: absolute;
+    border: 10px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, .2);
+    transform-origin: center 1000px;
+    transition: transform 1.2s ease-in-out;
+  }
+  img:first-child {
+    transform: rotate(5deg);
+  }
+  img:last-child {
+    transform: rotate(-5deg);
+  }
+}
+
+.cardfan:hover img:first-child {
+  transform: rotate(15deg);
+}
+
+.cardfan:hover img:last-child {
+  transform: rotate(-15deg);
+}
+
+.music {
+  width: 50px;
+  height: 50px;
+  margin: 100px auto;
+  text-align: center;
+  li {
+    display: inline-block;
+    width: 6px;
+    height: 100%;
+    background-color: green;
+    animation: strechdelay 1.2s infinite ease-in-out;
+    -webkit-animation: strechdelay 1.2s infinite ease-in-out;
+  }
+  .line1{
+    -webkit-animation-delay: -1.1s;
+  }
+  .line2 {
+    -webkit-animation-delay: -1s;
+  }
+  .line3 {
+    -webkit-animation-delay: -0.9s;
+  }
+  .line4 {
+    -webkit-animation-delay: -0.8s;
+  }
+  .line5 {
+    -webkit-animation-delay: -0.7s;
+  }
+}
+
+@keyframes strechdelay {
+  0%, 40%, 100% {
+    -webkit-transform: scaleY(.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+
+  }
+}

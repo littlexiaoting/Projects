@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=0"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>问卷</title>
+    <link rel="stylesheet" href="css/cssReset.css">
+    <link rel="stylesheet" href="css/question.css">
+    <link rel="stylesheet" href="css/radio.css">
+</head>
+<body>
+<header class="header">
+    <h2>做一个健康问卷调查，看看自己的健康状况</h2>
+    <small><span id="time"></span><span>宇都宫</span></small>
+    <img src="images/banner.jpg"/>
+</header>
+<section>
+    <form action="#" class="smart-form">
+        <div class="substance">
+            <div class="content">
+                <div class="question">
+                    <span class="num">1</span><span class="triangle"></span><label>是否有支气管哮喘？</label>
+                </div>
+                <div class="option">
+                    <label class="radio">
+                        <input type="radio" name="a" value="是">
+                        <i></i>是</label>
+                    <label class="radio">
+                        <input type="radio" name="a" value="否">
+                        <i></i>否</label>
+                </div>
+            </div>
+            <div class="content">
+                <div class="question">
+                    <span class="num">2</span><span class="triangle"></span><label>是否有支气管哮喘？</label>
+                </div>
+                <div class="option">
+                    <label class="radio">
+                        <input type="radio" name="b" value="是">
+                        <i></i>是</label>
+                    <label class="radio">
+                        <input type="radio" name="b" value="否">
+                        <i></i>否</label>
+                </div>
+            </div>
+            <div class="content">
+                <div class="question">
+                    <span class="num">3</span><span class="triangle"></span><label>除此之外您还有其他疾病吗？</label>
+                </div>
+                <div class="option">
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        <button type="button" id="btnSubmit">提交问卷</button>
+    </form>
+</section>
+<script src="js/time.js"></script>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://apps.bdimg.com/libs/layer/2.1/layer.js"></script>
+<script>
+    $("#btnSubmit").click(function () {
+        $(".question").each(function () {
+            //获得题目内容
+            $(this).children("label").html();
+            //获得选中radio的value值
+            $(this).next().children().children("input:checked").val();
+        });
+
+//        layer.ready(function() {
+//            layer.open({
+//                title: '温馨提示',
+//                content: '感谢您的访问！我们将安排专业医疗人员对您的问卷内容进行评估，评估报告会通过短信发送，请耐心等待！',
+//                yes: function () {
+//                    window.location.href = "choice.html";
+//                }
+//            });
+//        });
+    })
+</script>
+</body>
+</html>

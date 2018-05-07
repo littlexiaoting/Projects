@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Title</title>
+
+</head>
+<body>
+<div class="layout">
+    <section>
+        <h1>家族史调查问卷</h1>
+        <!--题目-->
+        <div class="ques" id="1">
+            <p>是否有支气管哮喘？</p>
+            <ul>
+                <label>
+                    <li><input type="radio" name="option1" value="yes">是</li>
+                </label>
+                <label>
+                    <li><input type="radio" name="option1" value="no">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="2">
+            <input type="button" value="上一题">
+            <p>是否有结核？</p>
+            <ul>
+                <label>
+                    <li><input type="radio" name="option2" value="yes">是</li>
+                </label>
+                <label>
+                    <li><input type="radio" name="option2" value="no">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="3">
+            <input type="button" value="上一题">
+            <p>是否有心脏病？</p>
+            <ul>
+                <label>
+                    <li><input type="radio" name="option3" value="yes">是</li>
+                </label>
+                <label>
+                    <li><input type="radio" name="option3" value="no">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="4">
+            <input type="button" value="上一题">
+            <p>是否有脑卒中？</p>
+            <ul>
+                <label>
+                    <li><input type="radio" name="option4" value="yes">是</li>
+                </label>
+                <label>
+                    <li><input type="radio" name="option4" value="no">否</li>
+                </label>
+            </ul>
+            <button>提交</button>
+        </div>
+
+        <!--答案-->
+        <div class="answer0"><p>支气管哮喘：</p></div>
+        <div class="answer1"><p>结核：胸肺CT</p></div>
+        <div class="answer2"><p>心脏病：血脂全项、心电图、心脏磁共振</p></div>
+        <div class="answer3"><p>脑卒中：血脂全项、头颈部磁共振</p></div>
+    </section>
+</div>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script>
+    $(function () {
+        //除了第一题显示，其他题目都隐藏
+        $('.ques:not(:first)').hide();
+
+        //所有答案都隐藏
+        $('div[class^=ans]').hide();
+
+        //获得所有题目的div和li
+        var $div = $('.ques');
+        var $label = $('label');
+
+        $label.click(function () {
+            //点击li标签后显示下一题
+            var a = $div.index($(this).parent().parent());
+            if (a < $div.length - 1) {
+                $div.hide();
+                $($div[a + 1]).show();
+            }
+
+
+        });
+
+
+        //点击上一题按钮
+        $('input[type=button]').click(function () {
+            var $div = $('.ques');
+            var a = $div.index($(this).parent());
+            $div.hide();
+            $($div[a - 1]).show();
+        });
+        //点击提交按钮,找到被选中的单选按钮控制答案的显示与隐藏
+        $('button').click(function () {
+            $('.ques').hide();
+            $('div[class^=answer]').show();
+            //找到所有被选中的单选框
+            var $radio = $('input[type=radio]:checked');
+            for (var i = 0; i < $radio.length; i++) {
+                console.log($($radio[i]).val());
+                console.log($('.answer' + i));
+                //判断选中的单选框的value值
+                if($($radio[i]).val()=='no'){
+                    $('.answer'+i).hide();
+                }
+            }
+        });
+    });
+
+</script>
+</body>
+</html>

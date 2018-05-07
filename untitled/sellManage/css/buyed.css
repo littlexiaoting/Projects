@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.footer ul li:first-child {
+    flex: 2;
+}
+.footer ul li:last-child {
+    flex: 2;
+}
+

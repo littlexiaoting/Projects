@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax练习</title>
+</head>
+<body>
+<input type="button" value="ajax提交" onclick="Ajax()">
+<div class="resText">
+
+</div>
+<script>
+    function Ajax() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('get', 'sellManage/index.html');
+        xhr.onreadystatechange=RequsetCallBack;
+        xhr.send();
+
+    }
+    function RequsetCallBack() {
+        if(){}
+    }
+</script>
+</body>
+</html>

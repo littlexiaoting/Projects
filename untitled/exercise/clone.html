@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-3.1.1.js"></script>
+</head>
+<body>
+<embed src='http://player.youku.com/player.php/sid/XMTczMzc1MjUwOA==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+<img src="images/1.jpg" height="120" width="120"/>
+
+<section style="border: 1px solid red;width: 800px; height: 800px;">
+
+</section>
+<script>
+    $(function () {
+        $('img').click(function () {
+            $(this).clone(true).appendTo($('section'));
+        })
+    })
+</script>
+</body>
+</html>

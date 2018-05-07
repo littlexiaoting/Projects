@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.pad {
+  padding: 1.875rem 1.875em 0;
+}
+.pad1 {
+  padding-top: 1.875rem;
+  text-align: center;
+}
+.pad2 {
+  padding: 2.125rem 1.375rem;
+}
+.margin {
+  margin: 1.875rem 1.125rem;
+}
+.border {
+  border: 1px solid #f1f1f1;
+}
+header {
+  padding: 1.875rem 1.875em 0;
+}
+header h2 {
+  padding-bottom: 0.8rem;
+}
+header span {
+  font-size: 1.625rem;
+  color: #666;
+}
+header span#time {
+  margin-right: 1.25rem;
+}
+header img {
+  padding-top: 1.25rem;
+}
+.smart-form {
+  margin: 1.875rem 1.125rem;
+}
+.smart-form .substance {
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+}
+.smart-form .substance .content {
+  width: 100%;
+  position: relative;
+}
+.smart-form .substance .content:not(:last-child) {
+  border-bottom: 1px solid #f1f1f1;
+}
+.smart-form .substance .content #birth {
+  width: 29rem;
+}
+.smart-form .substance .content #province,
+.smart-form .substance .content #tel {
+  width: 32.5rem;
+}
+.smart-form .substance .content:first-child {
+  padding-top: 1.875rem;
+  text-align: center;
+}
+.smart-form .substance .content:first-child label {
+  font-size: 1.875rem;
+}
+.smart-form .substance .content:first-child input {
+  margin-bottom: 1.875rem;
+  margin-right: .625rem;
+  font-size: 1.75rem;
+}
+.smart-form button {
+  width: 66.6%;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  margin: 1.875rem 16.7% 0;
+  font-size: 2.25rem;
+  color: #fff;
+  background-color: #58b0ff;
+  box-shadow: inset 0 -8px 8px #3fa4ff;
+  border: none;
+  border-radius: .9375rem;
+}

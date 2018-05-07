@@ -1,0 +1,30 @@
+@charset "UTF-8";
+h2 a {
+  font-size: 16px;
+  float: right;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-right: 100px;
+}
+.section {
+  padding-top: 10px;
+}
+.section h3 {
+  height: 40px;
+  line-height: 40px;
+}
+.section table {
+  margin-top: 10px;
+}
+.section table thead th:first-child {
+  width: 20%;
+}
+.section table thead th:nth-child(2) {
+  width: 25%;
+}
+.section table thead th:nth-child(3) {
+  width: 25%;
+}
+.section table thead th:last-child {
+  width: 30%;
+}

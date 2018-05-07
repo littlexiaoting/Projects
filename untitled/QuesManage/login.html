@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="css/cssReset.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="bg">
+    <div class="login">
+        <h2>问卷调查后台系统</h2>
+        <p class="warn">用户名或密码错误</p>
+
+        <form action="#">
+            <input type="text" id="userName" placeholder="用户名" required>
+            <input type="password" id="pwd" placeholder="密码" required><br>
+
+            <button type="submit" id="loginBtn">登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+        </form>
+    </div>
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    $("#loginBtn").click(function () {
+        window.location.href = "index.html";
+    })
+</script>
+</body>
+</html>

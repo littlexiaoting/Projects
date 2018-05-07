@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Title</title>
+    <style>
+        .answer {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <section>
+        <h1>问诊调查问卷</h1>
+        <!--题目-->
+        <div class="ques" id="1">
+            <p>经常感冒吗？</p>
+            <ul>
+                <label>
+                    <li><input type="radio" name="option1" value="yes">是</li>
+                </label>
+                <label>
+                    <li><input type="radio" name="option1" value="no">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="2">
+            <input type="button" value="上一题">
+            <p>扁桃体肿胀吗？</p>
+            <ul>
+                <label>
+                    <li><input type="radio" name="option2" value="yes">是</li>
+                </label>
+                <label>
+                    <li><input type="radio" name="option2" value="no">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="3">
+            <input type="button" value="上一题">
+            <p>有痰并咳嗽吗？</p>
+            <ul>
+                <label>
+                    <li><input type="radio" name="option3" value="yes">是</li>
+                </label>
+                <label>
+                    <li><input type="radio"  name="option3" value="no">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="4">
+            <input type="button" value="上一题">
+            <p>脉搏不齐吗？</p>
+            <ul>
+                <label>
+                    <li><input type="radio"  name="option4" value="yes">是</li>
+                </label>
+                <label>
+                    <li><input type="radio" name="option4" value="no">否</li>
+                </label>
+            </ul>
+            <button>提交</button>
+        </div>
+
+        <!--答案-->
+        <div class="answer need">
+            <p>需要体检项目：</p>
+            <ul>
+                <li class="answer0">经常感冒：血常规、肿瘤标识物</li>
+                <li class="answer1">扁桃体肿胀：血常规</li>
+                <li class="answer2">有痰并咳嗽：咳痰细胞检查、肺功能、肺CT</li>
+                <li class="answer3">脉搏不齐：ECG、心脏MRI</li>
+            </ul>
+        </div>
+        <div class="answer danger">
+            <p>可能存在健康问题：</p>
+            <ul>
+                <li class="answer0">经常感冒：抵抗力下降，亚健康，不良生活习惯</li>
+                <li class="answer1">扁桃体肿胀：抵抗力下降，亚健康，不良生活习惯</li>
+                <li class="answer2">有痰并咳嗽：慢性气管、支气管炎症，咽炎，呼吸系统过敏症，肺部疾病，如肺结核、肺癌等</li>
+                <li class="answer3">脉搏不齐：心脏植物神经功能紊乱，其他心脏疾病</li>
+            </ul>
+        </div>
+        <div class="answer advice">
+            <p>健康管理建议：</p>
+            <ul>
+                <li class="answer0">经常感冒：血常规、肿瘤标识物</li>
+                <li class="answer1">扁桃体肿胀：血常规</li>
+                <li class="answer2">有痰并咳嗽：咳痰细胞检查、肺功能、肺CT</li>
+                <li class="answer3">脉搏不齐：ECG、心脏MRI</li>
+            </ul>
+        </div>
+    </section>
+</div>
+<script src="js/jquery-3.2.0.min.js"></script>
+
+<script>
+    $(function () {
+        //除了第一题显示，其他题目都隐藏
+        $('.ques:not(:first)').hide();
+
+        //所有答案都隐藏
+        $('div[class^=ans]').hide();
+
+        //获得所有题目的div和label
+        var $div = $('.ques');
+        var $label = $('label');
+
+        $label.click(function () {
+            //点击li标签后显示下一题
+            var a = $div.index($(this).parent().parent());
+            if (a < $div.length - 1) {
+                $div.hide();
+                $($div[a + 1]).show();
+            }
+        });
+    });
+    //点击上一题按钮
+    $('input[type=button]').click(function () {
+        var $div = $('.ques');
+        var a = $div.index($(this).parent());
+        $div.hide();
+        $($div[a - 1]).show();
+    });
+
+    //    //点击提交按钮
+    //    $('button').click(function () {
+    //        $('.ques').hide();
+    //        $('.answer').show();
+    //    });
+
+    //点击提交按钮,找到被选中的单选按钮控制答案的显示与隐藏
+    $('button').click(function () {
+        $('.ques').hide();
+        $('.answer').show();
+        //找到所有被选中的单选框
+        var $radio = $('input[type=radio]:checked');
+        for (var i = 0; i < $radio.length; i++) {
+            console.log($($radio[i]).val());
+            console.log($('.answer' + i));
+                //判断选中的单选框的value值
+                if($($radio[i]).val()=='no'){
+                    $('.answer'+i).hide();
+                }
+        }
+    });
+</script>
+</body>
+</html>

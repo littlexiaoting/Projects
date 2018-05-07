@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da0f1836-68dc-4f80-ae1d-4f9aa9db880a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="untitled" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AokiMedical/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>titile</find>
+      <find>ul class=&quot;t</find>
+      <find>class=&quot;name&quot;</find>
+      <find>class=&quot;title&quot;</find>
+      <find>&lt;br&gt;中文报告解析，</find>
+      <find>营养生活习惯指导</find>
+      <find>body</find>
+      <find>&lt;i class=&quot;add&quot;&gt;(体检套餐加项)</find>
+      <find>查看更多</find>
+      <find>&lt;button&gt;查看&lt;/button&gt;</find>
+      <find>fivestar</find>
+      <find>&lt;br&gt;</find>
+      <find>&lt;h1&gt;青木惠康 海外体检 海外就医 出国体检 出国看病 海外医疗&lt;/h1&gt;</find>
+      <find>first</find>
+      <find>科莱弗</find>
+      <find>协助办理日本医疗签证服务</find>
+      <find>我们特意挑选了在日本体检业界</find>
+      <find>.ul_right</find>
+      <find>&lt;h1&gt;青木惠康|出国体检|出国看病&lt;/h1&gt;</find>
+      <find>PET</find>
+      <find>tour</find>
+      <find>bx</find>
+      <find>className</find>
+      <find>推荐人群</find>
+      <find>地址：</find>
+      <find>themePark</find>
+      <find>height</find>
+      <find>class</find>
+      <find>line</find>
+      <find>富士</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>value=&quot;yes&quot;&gt;是&lt;/li&gt;</replace>
+      <replace>type=&quot;radio&quot; class=&quot;judge&quot;</replace>
+      <replace>type=&quot;radio&quot;</replace>
+      <replace>jpg</replace>
+      <replace>h3</replace>
+      <replace>video</replace>
+      <replace>・</replace>
+      <replace>.second_ul</replace>
+      <replace>class=&quot;price&quot;&gt;价格：</replace>
+      <replace>元RMB&lt;/p&gt;&lt;span class=&quot;add&quot;&gt;(体检套餐加项)&lt;/span&gt;</replace>
+      <replace>元RMB&lt;span class=&quot;add&quot;&gt;(体检套餐加项)&lt;/span&gt;&lt;/p&gt;</replace>
+      <replace>&lt;i class=&quot;add&quot;&gt;(体检套餐加项)&lt;/i&gt;</replace>
+      <replace>&lt;a href=&quot;add.html&quot; class=&quot;add&quot;&gt;(体检套餐加项)&lt;/a&gt;</replace>
+      <replace>class=&quot;add_name&quot;</replace>
+      <replace>class=&quot;add_title&quot;</replace>
+      <replace>中文报告解析，&lt;br&gt;</replace>
+      <replace>营养生活习惯指导。</replace>
+      <replace>&lt;i class=&quot;add&quot;&gt;(体检套餐加项，点击查看)</replace>
+      <replace>（查看更多）</replace>
+      <replace>&lt;a href=&quot;information.html&quot;&gt;查看&lt;/a&gt;</replace>
+      <replace>fourStar</replace>
+      <replace />
+      <replace>&lt;h1&gt;青木惠康|出国体检|出国看病&lt;/h1&gt;</replace>
+      <replace>青木</replace>
+      <replace>&lt;h1&gt;青木惠康|出国体检|出国看病|出国医疗&lt;/h1&gt;</replace>
+      <replace>class</replace>
+      <replace>适合人群</replace>
+      <replace>&lt;br&gt;&lt;span&gt;地址：&lt;/span&gt;</replace>
+      <replace>need</replace>
+      <replace>className</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AokiMedical/MedicalVisa.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/practicalInfo.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/publicTransport.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/questionAnswer.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/serviceProcess.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/testAdvantage.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/threeStar.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/tourAttraction.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/touristVisa.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/travelNotes.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/aaa.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/business.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/business.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/medPackage.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/a.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/b.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/c.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/d.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/e.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/f.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/g.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/h.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/serviceFlow.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/serviceFlow.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/service.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/attention.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/medInsurance.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/wangshi.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/cooperation.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/bus.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/publicTransport.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/medTour.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/medTour.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/infoNews.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/cooperation.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/js/attention.js" />
+        <option value="$PROJECT_DIR$/AokiMedical/themePark.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/tokyoExperience.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/medInsurance.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/medInsurance.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/information.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/overseas.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/overseas.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/hospitalize.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/hospitaize.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/advantage.html" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/index.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/css/publicCss.less" />
+        <option value="$PROJECT_DIR$/AokiMedical/js/navbar - 副本.js" />
+        <option value="$PROJECT_DIR$/AokiMedical/js/navbar.js" />
+        <option value="$PROJECT_DIR$/AokiMedical/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/react-music-player/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="203" />
+    <option name="y" value="55" />
+    <option name="width" value="1480" />
+    <option name="height" value="926" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="image&#9;FILE&#9;file://E:/Ekola/untitled/junyan/images/about/image1.jpg" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Ekola\untitled\AokiMedical\images" />
+      <recent name="E:\Ekola\untitled\AokiMedical\images\business" />
+      <recent name="E:\Ekola\untitled\AokiMedical\images\medicalTour\hotel" />
+      <recent name="E:\Ekola\untitled\AokiMedical" />
+      <recent name="E:\Ekola\untitled\AokiMedical\images\index" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Ekola\untitled\AokiMedical\css" />
+      <recent name="E:\Ekola\untitled\AokiMedical\images\medicalTour" />
+      <recent name="E:\Ekola\untitled\AokiMedical" />
+      <recent name="E:\Ekola\untitled\AokiMedical\images\index" />
+      <recent name="E:\Ekola\untitled\question\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="home.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/starbucks-1/home.html" />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da0f1836-68dc-4f80-ae1d-4f9aa9db880a" name="Default" comment="" />
+      <created>1488184052261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488184052261</updated>
+      <workItem from="1488184058362" duration="329000" />
+      <workItem from="1488184423121" duration="4957000" />
+      <workItem from="1488246483346" duration="28043000" />
+      <workItem from="1488275974743" duration="73000" />
+      <workItem from="1488330328594" duration="2457000" />
+      <workItem from="1488334170532" duration="72000" />
+      <workItem from="1488334275533" duration="63000" />
+      <workItem from="1488334473923" duration="4493000" />
+      <workItem from="1488341576661" duration="16644000" />
+      <workItem from="1488361857140" duration="484000" />
+      <workItem from="1488416725443" duration="5304000" />
+      <workItem from="1488422077618" duration="15763000" />
+      <workItem from="1488447492990" duration="36000" />
+      <workItem from="1488506494178" duration="3656000" />
+      <workItem from="1488519076699" duration="1798000" />
+      <workItem from="1488762516315" duration="3840000" />
+      <workItem from="1488768178804" duration="9752000" />
+      <workItem from="1488789107285" duration="851000" />
+      <workItem from="1488791083587" duration="155000" />
+      <workItem from="1488851786820" duration="62000" />
+      <workItem from="1488851892970" duration="1323000" />
+      <workItem from="1488871695913" duration="739000" />
+      <workItem from="1488936017911" duration="191000" />
+      <workItem from="1488936301754" duration="16975000" />
+      <workItem from="1489023448020" duration="7430000" />
+      <workItem from="1489041957093" duration="71000" />
+      <workItem from="1489042186913" duration="7448000" />
+      <workItem from="1489107403339" duration="879000" />
+      <workItem from="1489108668444" duration="5425000" />
+      <workItem from="1489114871472" duration="638000" />
+      <workItem from="1489138279140" duration="19000" />
+      <workItem from="1489384366531" duration="620000" />
+      <workItem from="1489389822728" duration="739000" />
+      <workItem from="1489394583598" duration="4648000" />
+      <workItem from="1489453866025" duration="3271000" />
+      <workItem from="1489712261527" duration="54000" />
+      <workItem from="1489712374397" duration="16721000" />
+      <workItem from="1489736574931" duration="613000" />
+      <workItem from="1489737765448" duration="70000" />
+      <workItem from="1489741269716" duration="3535000" />
+      <workItem from="1489972153373" duration="18000" />
+      <workItem from="1489972218097" duration="4228000" />
+      <workItem from="1490059356082" duration="52000" />
+      <workItem from="1490059534252" duration="14396000" />
+      <workItem from="1490080872434" duration="6505000" />
+      <workItem from="1490087572655" duration="2222000" />
+      <workItem from="1490090148794" duration="280000" />
+      <workItem from="1490148059754" duration="273000" />
+      <workItem from="1490149368025" duration="17112000" />
+      <workItem from="1490179876664" duration="1818000" />
+      <workItem from="1490231277127" duration="3251000" />
+      <workItem from="1490234578468" duration="148000" />
+      <workItem from="1490234896538" duration="845000" />
+      <workItem from="1490238400033" duration="7000" />
+      <workItem from="1490250630963" duration="81000" />
+      <workItem from="1490333327000" duration="8328000" />
+      <workItem from="1490346272177" duration="815000" />
+      <workItem from="1490577012395" duration="227000" />
+      <workItem from="1490577263728" duration="3037000" />
+      <workItem from="1490594032635" duration="10321000" />
+      <workItem from="1490663253246" duration="24309000" />
+      <workItem from="1490749240819" duration="16295000" />
+      <workItem from="1490773419884" duration="5407000" />
+      <workItem from="1490836194397" duration="775000" />
+      <workItem from="1490839508226" duration="20465000" />
+      <workItem from="1490922462876" duration="13259000" />
+      <workItem from="1490943622749" duration="956000" />
+      <workItem from="1490944638773" duration="33000" />
+      <workItem from="1490945200114" duration="110000" />
+      <workItem from="1490945384388" duration="240000" />
+      <workItem from="1490945686929" duration="46000" />
+      <workItem from="1491009438236" duration="2433000" />
+      <workItem from="1491444207078" duration="1683000" />
+      <workItem from="1491445935014" duration="2920000" />
+      <workItem from="1491465264947" duration="2459000" />
+      <workItem from="1491469571402" duration="1767000" />
+      <workItem from="1491471550896" duration="65000" />
+      <workItem from="1491471864195" duration="599000" />
+      <workItem from="1491526888156" duration="1170000" />
+      <workItem from="1491556554022" duration="603000" />
+      <workItem from="1491558665781" duration="177000" />
+      <workItem from="1491787633724" duration="344000" />
+      <workItem from="1491788232208" duration="39000" />
+      <workItem from="1491788414885" duration="800000" />
+      <workItem from="1491802841863" duration="3086000" />
+      <workItem from="1491808132174" duration="2752000" />
+      <workItem from="1491875170032" duration="5597000" />
+      <workItem from="1491959929460" duration="98000" />
+      <workItem from="1492048522792" duration="21615000" />
+      <workItem from="1492132044542" duration="24233000" />
+      <workItem from="1492390771397" duration="5919000" />
+      <workItem from="1492414212406" duration="9167000" />
+      <workItem from="1492477324474" duration="40000" />
+      <workItem from="1492477442439" duration="22163000" />
+      <workItem from="1492507188276" duration="2033000" />
+      <workItem from="1492563536864" duration="24187000" />
+      <workItem from="1492649978711" duration="22185000" />
+      <workItem from="1492678426983" duration="4028000" />
+      <workItem from="1492736247319" duration="6127000" />
+      <workItem from="1492761174992" duration="8484000" />
+      <workItem from="1492995980488" duration="19310000" />
+      <workItem from="1493082394223" duration="21000" />
+      <workItem from="1493082695428" duration="19167000" />
+      <workItem from="1493169959048" duration="4070000" />
+      <workItem from="1493185443242" duration="1074000" />
+      <workItem from="1493188547078" duration="3095000" />
+      <workItem from="1493200339156" duration="241000" />
+      <workItem from="1493200741297" duration="968000" />
+      <workItem from="1493254821328" duration="26000" />
+      <workItem from="1493254941726" duration="19070000" />
+      <workItem from="1493342042002" duration="2035000" />
+      <workItem from="1493688305015" duration="7721000" />
+      <workItem from="1493777140044" duration="3981000" />
+      <workItem from="1493859813022" duration="7739000" />
+      <workItem from="1494205672381" duration="18681000" />
+      <workItem from="1494293997664" duration="9482000" />
+      <workItem from="1494378129578" duration="13036000" />
+      <workItem from="1494464547538" duration="604000" />
+      <workItem from="1494467197771" duration="9978000" />
+      <workItem from="1494551930063" duration="5168000" />
+      <workItem from="1494810042434" duration="2990000" />
+      <workItem from="1494897308920" duration="2072000" />
+      <workItem from="1495091522556" duration="9230000" />
+      <workItem from="1495101394535" duration="238000" />
+      <workItem from="1495162768056" duration="12457000" />
+      <workItem from="1495415345611" duration="28000" />
+      <workItem from="1495415433411" duration="827000" />
+      <workItem from="1495417044559" duration="13412000" />
+      <workItem from="1495501946719" duration="3815000" />
+      <workItem from="1495590447037" duration="781000" />
+      <workItem from="1495675640099" duration="8659000" />
+      <workItem from="1495760217862" duration="17705000" />
+      <workItem from="1495846972203" duration="6760000" />
+      <workItem from="1496194187318" duration="12195000" />
+      <workItem from="1496279393299" duration="22319000" />
+      <workItem from="1496366104905" duration="6613000" />
+      <workItem from="1496391062963" duration="597000" />
+      <workItem from="1496624999769" duration="11338000" />
+      <workItem from="1496711008411" duration="5494000" />
+      <workItem from="1496797905441" duration="4698000" />
+      <workItem from="1496883237559" duration="12466000" />
+      <workItem from="1496970161288" duration="728000" />
+      <workItem from="1496970965886" duration="6323000" />
+      <workItem from="1497230326941" duration="19358000" />
+      <workItem from="1497316004973" duration="14748000" />
+      <workItem from="1497402991543" duration="1801000" />
+      <workItem from="1497488888444" duration="9264000" />
+      <workItem from="1497587520354" duration="186000" />
+      <workItem from="1497841259213" duration="4332000" />
+      <workItem from="1497940926746" duration="786000" />
+      <workItem from="1498007057874" duration="10699000" />
+      <workItem from="1498101365150" duration="1557000" />
+      <workItem from="1498179941186" duration="5055000" />
+      <workItem from="1498438931202" duration="3107000" />
+      <workItem from="1498525463620" duration="25997000" />
+      <workItem from="1498618430765" duration="282000" />
+      <workItem from="1498631194430" duration="4077000" />
+      <workItem from="1498698670869" duration="20844000" />
+      <workItem from="1498729603124" duration="800000" />
+      <workItem from="1498801402493" duration="13520000" />
+      <workItem from="1499043892691" duration="8430000" />
+      <workItem from="1499130452647" duration="4944000" />
+      <workItem from="1499216710271" duration="15043000" />
+      <workItem from="1499303573007" duration="1547000" />
+      <workItem from="1499390050858" duration="18031000" />
+      <workItem from="1499648739822" duration="2435000" />
+      <workItem from="1499741628421" duration="1275000" />
+      <workItem from="1499822172196" duration="6930000" />
+      <workItem from="1499847028888" duration="6726000" />
+      <workItem from="1499908042918" duration="8216000" />
+      <workItem from="1499994402589" duration="7033000" />
+      <workItem from="1500253502551" duration="18205000" />
+      <workItem from="1500283437516" duration="632000" />
+      <workItem from="1500340306352" duration="98000" />
+      <workItem from="1500340573821" duration="14772000" />
+      <workItem from="1500427306122" duration="4510000" />
+      <workItem from="1500456171089" duration="599000" />
+      <workItem from="1500513030516" duration="3973000" />
+      <workItem from="1500603025064" duration="890000" />
+      <workItem from="1500858369695" duration="7394000" />
+      <workItem from="1500944916120" duration="1478000" />
+      <workItem from="1501032443256" duration="1598000" />
+      <workItem from="1501203963637" duration="1315000" />
+      <workItem from="1501463029013" duration="1291000" />
+      <workItem from="1501549997859" duration="597000" />
+      <workItem from="1501637072940" duration="3399000" />
+      <workItem from="1501739200077" duration="1731000" />
+      <workItem from="1502071365857" duration="342000" />
+      <workItem from="1502071957603" duration="7274000" />
+      <workItem from="1502154723178" duration="5031000" />
+      <workItem from="1502240448829" duration="23722000" />
+      <workItem from="1502328243918" duration="128000" />
+      <workItem from="1502328852953" duration="5395000" />
+      <workItem from="1502413644326" duration="8540000" />
+      <workItem from="1502672713103" duration="20798000" />
+      <workItem from="1502758614307" duration="26026000" />
+      <workItem from="1502844823854" duration="610000" />
+      <workItem from="1502845636245" duration="4118000" />
+      <workItem from="1502931764728" duration="18260000" />
+      <workItem from="1503019060453" duration="8940000" />
+      <workItem from="1503368092626" duration="30000" />
+      <workItem from="1503368198555" duration="813000" />
+      <workItem from="1525245119480" duration="335000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1219952000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08061117" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3296433" />
+      <window_info anchor="bottom" id="NativeScript" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31766382" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3296433" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32142857" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2021858" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3296433" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3296433" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AokiMedical/e.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/b.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/advantage.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/cssReset.css" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/diagnosis.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/images/index/advantage.jpg" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/images/business/hospitalized.jpg" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/medicalBenefits.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/cooperation.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/medicalVisa.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/touristVisa.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/MedicalVisa.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/bus.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/eatAndPlay.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/travelNotes.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/bus.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/hotel.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/threeStar.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/fourStar.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/fiveStar.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/publicTransport.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/publicTransport.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/tourAttraction.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/images/medicalTour/hotel/threeStar1.jpg" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/medTour.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/medTour.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/attention.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/cooperation.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/js/attention.js" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/themePark.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/tokyoExperience.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/wangshi.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/medInsurance.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/js/footer - 副本.js" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/infoNews.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/information.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/information.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/medInsurance.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/overseas.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/quesAnsw.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/questionAnswer.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/advantage.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/index.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/aboutUs.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/hospitaize.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/hospitalize.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/overseas.html" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/js/navbar - 副本.js" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/js/navbar.js" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/css/publicCss.less" />
+    <entry file="file://$PROJECT_DIR$/AokiMedical/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

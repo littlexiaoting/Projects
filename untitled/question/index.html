@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=0"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>宇都宫中心医院</title>
+    <link rel="stylesheet" href="css/cssReset.css">
+    <link rel="stylesheet" href="css/public.css">
+</head>
+<body>
+<header class="header">
+    <h2>做一个健康问卷调查，看看自己的健康状况</h2>
+    <small><span id="time"></span><span>宇都宫</span></small>
+    <img src="images/banner.jpg"/>
+</header>
+<section>
+    <form action="#" class="smart-form">
+        <div class="substance">
+            <div class="content">
+                <label for="name">姓名：</label><input type="text" id="name" placeholder="XX" required>
+                <label for="sex">性别：</label><input type="text" id="sex" placeholder="男/女" required><br>
+                <label for="job">职业：</label><input type="text" id="job" placeholder="选填">
+                <label for="bloodType">血型：</label><input type="text" id="bloodType" placeholder="选填"><br>
+                <label for="birth">出生日期：</label><input type="text" id="birth" placeholder="1994-1-1" required><br>
+                <label for="tel">电话：</label><input type="tel" id="tel" placeholder="座机或手机号" required><br>
+                <label for="province">地址：</label><input class="address" type="text" id="province" placeholder="省市区"
+                                                        required>
+            </div>
+            <button id="choose">选择问卷</button>
+        </div>
+    </form>
+</section>
+</body>
+<!--<script img="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>-->
+<script src="js/time.js"></script>
+<script>
+    document.getElementById("choose").onclick = function () {
+        window.location.href = "choice.html";
+    }
+
+</script>
+</html>

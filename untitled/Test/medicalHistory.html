@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Title</title>
+    <style>
+        section .ques {
+            width: 70%;
+            margin: 0 auto;
+            position: relative;
+            top: 8rem;
+        }
+
+        h1 {
+            position: absolute;
+            width: 100%;
+            height: 2rem;
+            line-height: 2rem;
+            font-size: 2rem;
+            left: 0;
+            top: 4rem;
+            text-align: center;
+        }
+
+        .ques > p {
+            width: 100%;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            border: 1px solid rgba(109, 104, 102, 0.1);
+            background: rgba(109, 104, 102, 0.1);
+            border-radius: 10px;
+        }
+
+        input[type=radio] {
+            -webkit-appearance: radio;
+            -moz-appearance: radio;
+            appearance: radio;
+        }
+
+        section .ques ul {
+            width: 100%;
+        }
+
+        section .ques ul li {
+            width: 100%;
+            padding-left: 1.2rem;
+            border: 1px solid rgba(109, 104, 102, 0.1);
+            background: rgba(109, 104, 102, 0.1);
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        section .ques ul li label {
+            width: 100%;
+        }
+
+        input {
+            margin-right: 1rem;
+        }
+
+        section .ques ul li .quesLittle {
+            top: 0;
+        }
+
+        section .text {
+            width: 70%;
+            margin: 0 auto;
+            position: relative;
+            top: 8rem;
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <section>
+        <h1>病史调查问卷</h1>
+        <div class="ques" id="1">
+            <p>您有接受过手术吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(2)"><input type="radio" name="option">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(3)"><input type="radio" name="option">否</li>
+                </label>
+            </ul>
+        </div>
+        <div class="ques" id="2">
+            <input type="button" onclick="showDiv(1)" value="上一题">
+            <p>手术部位</p>
+            <ul>
+                <label>
+                    <li class="little" onclick="showLittle(1)"><input type="radio">头部
+                        <div class="quesLittle" id="ques1">
+                            <ul>
+                                <label>
+                                    <li><input type="checkbox" class="an">头颅</li>
+                                </label>
+                                <label>
+                                    <li><input type="checkbox" class="an">眼部</li>
+                                </label>
+                                <label>
+                                    <li><input type="checkbox" class="an">耳鼻喉</li>
+                                </label>
+                            </ul>
+                        </div>
+                    </li>
+                </label>
+                <label>
+                    <li class="little" onclick="showLittle(2)"><input type="radio">颈部
+                        <div class="quesLittle" id="ques2">
+                            <ul>
+                                <label>
+                                    <li><input type="checkbox" class="an">颈部血管
+                                </label></li>
+                                <label>
+                                    <li><input type="checkbox" class="an">甲状腺
+                                </label></li>
+                            </ul>
+                        </div>
+                    </li>
+                </label>
+                <label>
+                    <li><input type="radio" class="an">心脏</li>
+                </label>
+                <label>
+                    <li><input type="radio" class="an">肺脏</li>
+                </label>
+                <label>
+                    <li class="little" onclick="showLittle(3)"><input type="radio">腹部
+                        <div class="quesLittle" id="ques3">
+                            <ul>
+                                <label>
+                                    <li><input type="checkbox" class="a1">肝脏
+                                </label></li>
+                                <label>
+                                    <li><input type="checkbox" class="a1">胆囊
+                                </label></li>
+                                <label>
+                                    <li><input type="checkbox" class="an">脾脏
+                                </label></li>
+                                <label>
+                                    <li><input type="checkbox" class="an">胰腺
+                                </label></li>
+                                <label>
+                                    <li><input type="checkbox" class="an">肾脏
+                                </label></li>
+                            </ul>
+                        </div>
+                    </li>
+                </label>
+                <label>
+                    <li><input type="radio" class="an">乳腺
+                </label></li>
+                <label>
+                    <li class="little" onclick="showLittle(4)"><input type="radio">妇科
+                        <div class="quesLittle" id="ques4">
+                            <ul>
+                                <label>
+                                    <li><input type="checkbox" class="a2">子宫
+                                </label></li>
+                                <label>
+                                    <li><input type="checkbox" class="a2">卵巢
+                                </label></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                </label>
+                <label>
+                    <li class="little" onclick="showLittle(5)"><input type="radio">男性
+                        <div class="quesLittle" id="ques5">
+                            <ul>
+                                <label>
+                                    <li><input type="checkbox" class="a3">前列腺
+                                </label></li>
+                                <label>
+                                    <li><input type="checkbox" class="a3">睾丸
+                                </label></li>
+                            </ul>
+                        </div>
+                    </li>
+                </label>
+                <label>
+                    <li><input type="radio" class="an">骨骼肌肉系统
+                </label></li>
+            </ul>
+            <input type="button" onclick="showDiv(3)" value="下一题">
+        </div>
+
+        <div class="ques" id="3">
+            <input type="button" onclick="showDiv(2)" value="上一题">
+            <p>您有安装过心脏起搏器吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(4)"><input type="radio" class="a4" name="option1">是
+                    </li>
+                </label>
+                <label>
+                    <li onclick="showDiv(4)"><input type="radio" name="option1">否</li>
+                </label>
+            </ul>
+        </div>
+        <div class="ques" id="4">
+            <input type="button" onclick="showDiv(3)" value="上一题">
+            <p>您体内有动脉瘤夹、电圈、螺丝钉、避孕环等金属吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(5)"><input type="radio" class="a4" name="option1">是
+                    </li>
+                </label>
+                <label>
+                    <li onclick="showDiv(5)"><input type="radio" name="option1">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="5">
+            <input type="button" onclick="showDiv(4)" value="上一题">
+
+            <p>您有安装人工关节吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(6)"><input type="radio" class="a4" name="option2">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(6)"><input type="radio" name="option2">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="6">
+            <input type="button" onclick="showDiv(5)" value="上一题">
+
+            <p>您有能取掉的假牙吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(7)"><input type="radio" class="a4" name="option3">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(7)"><input type="radio" name="option3">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="7">
+            <input type="button" onclick="showDiv(6)" value="上一题">
+
+            <p>您处于怀孕中吗？或者有可能怀孕了吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(8)"><input type="radio" class="an" name="option4">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(8)"><input type="radio" name="option4">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="8">
+            <input type="button" onclick="showDiv(7)" value="上一题">
+
+            <p>最后一次月经是什么时候？</p>
+            <input type="text"><br>
+            <input type="button" onclick="showDiv(9)" value="下一题">
+        </div>
+
+
+        <div class="ques" id="9">
+            <input type="button" onclick="showDiv(8)" value="上一题">
+
+            <p>您的闭经年龄是什么时候？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(10)"><input type="radio" name="option5">45-55岁</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(10)"><input type="radio" class="an" name="option5">其他年龄</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="10">
+            <input type="button" onclick="showDiv(9)" value="上一题">
+
+            <p>您有患过甲状腺疾病吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(11)"><input type="radio" class="an" name="option6">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(11)"><input type="radio" name="option6">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="11">
+            <input type="button" onclick="showDiv(10)" value="上一题">
+
+            <p>您有患过哮喘吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(12)"><input type="radio" class="an" name="option7">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(12)"><input type="radio" name="option7">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="12">
+            <input type="button" onclick="showDiv(11)" value="上一题">
+
+            <p>您被确诊患有过敏性疾病吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(13)"><input type="radio" class="a5" name="option8">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(14)"><input type="radio" name="option8">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="13">
+            <input type="button" onclick="showDiv(12)" value="上一题">
+
+            <p>确诊为何种过敏性疾病？</p>
+            <input type="text">
+            <input type="button" onclick="showDiv(14)" value="下一题">
+
+        </div>
+
+        <div class="ques" id="14">
+            <input type="button" onclick="showDiv(13)" value="上一题">
+
+            <p>您是否患有前列腺疾病？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(15)"><input type="radio" class="an" name="option10">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(15)"><input type="radio" name="option10">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="15">
+            <input type="button" onclick="showDiv(14)" value="上一题">
+
+            <p>您患过心脏疾病吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(16)"><input type="radio" class="an" name="option11">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(16)"><input type="radio" name="option11">否</li>
+                </label>
+            </ul>
+        </div>
+
+        <div class="ques" id="16">
+            <input type="button" onclick="showDiv(15)" value="上一题">
+
+            <p>您有贫血吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(17)"><input type="radio" class="an" name="option12">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(17)"><input type="radio" name="option12">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="17">
+            <input type="button" onclick="showDiv(16)" value="上一题">
+
+            <p>您有患过梅毒吗？
+            </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(18)"><input type="radio" class="an" name="option13">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(18)"><input type="radio" name="option13">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="18">
+            <input type="button" onclick="showDiv(17)" value="上一题">
+
+            <p>您患有糖尿病吗？
+            </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(19)"><input type="radio" class="an" name="option14">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(19)"><input type="radio" name="option14">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="19">
+            <input type="button" onclick="showDiv(18)" value="上一题">
+
+            <p>您接受过癌症、肿瘤的治疗吗？
+            </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(20)"><input type="radio" class="an" name="option15">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(20)"><input type="radio" name="option15">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="20">
+            <input type="button" onclick="showDiv(19)" value="上一题">
+
+            <p>您患过结核吗？
+            </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(21)"><input type="radio" class="an" name="option16">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(21)"><input type="radio" name="option16">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="21">
+            <input type="button" onclick="showDiv(20)" value="上一题">
+
+            <p>您有高血压吗？
+            </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(22)"><input type="radio" class="an" name="option17">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(22)"><input type="radio" name="option17">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="22">
+            <input type="button" onclick="showDiv(21)" value="上一题">
+
+            <p>您有高脂血症或者胆固醇高吗？
+            </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(23)"><input type="radio" class="an" name="option18">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(23)"><input type="radio" name="option18">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="23">
+            <input type="button" onclick="showDiv(22)" value="上一题">
+
+            <p>您有胃肠疾病吗？ </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(24)"><input type="radio" class="an" name="option19">有过胃部疾病</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(24)"><input type="radio" class="an" name="option19">有过肠道疾病</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(24)"><input type="radio" name="option19">都没有</li>
+                </label>
+            </ul>
+            <input type="button" onclick="showDiv(24)" value="下一题">
+
+        </div>
+
+        <div class="ques" id="24">
+            <input type="button" onclick="showDiv(23)" value="上一题">
+
+            <p>您患过肝脏的疾病吗？
+            </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(25)"><input type="radio" class="an" name="option20">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(25)"><input type="radio" name="option20">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="25">
+            <input type="button" onclick="showDiv(24)" value="上一题">
+
+            <p>您患过肾脏疾病吗？
+            </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(26)"><input type="radio" class="a6" name="option21">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(26)"><input type="radio" name="option21">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="26">
+            <input type="button" onclick="showDiv(25)" value="上一题">
+
+            <p>您正在人工透析吗？
+            </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(27)"><input type="radio" class="a6" name="option22">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(27)"><input type="radio" name="option22">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="27">
+            <input type="button" onclick="showDiv(26)" value="上一题">
+
+            <p>您患有眼部疾病吗？
+            </p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(28)"><input type="radio" class="a7" name="option23">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(28)"><input type="radio" name="option23">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="28">
+            <input type="button" onclick="showDiv(27)" value="上一题">
+
+            <p>您患过白内障、绿内障或眼底出血吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(29)"><input type="radio" class="a7" name="option24">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(29)"><input type="radio" name="option24">否</li>
+                </label>
+
+            </ul>
+        </div>
+        <div class="ques" id="29">
+            <input type="button" onclick="showDiv(28)" value="上一题">
+            <p>您患有耳部疾病吗？</p>
+            <ul>
+                <label>
+                    <li onclick="showDiv(30)"><input type="radio" class="an" name="option25">是</li>
+                </label>
+                <label>
+                    <li onclick="showDiv(30)"><input type="radio" name="option25">否</li>
+                </label>
+
+            </ul>
+        </div>
+
+        <div class="ques" id="30">
+            <input type="button" onclick="showDiv(29)" value="上一题">
+
+            <p>除此以外您患有其他疾病吗？
+            </p>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <button>提交</button>
+        </div>
+
+        <div class="text">
+            <div class="answer">
+                <p>建议您做以下检查</p>
+            </div>
+            <div class="answer0"><p>头颅：血脂全项、头颅磁共振</p></div>
+            <div class="answer1"><p>眼部：眼科检查：视力、裂隙灯检查、眼底、眼压</p></div>
+            <div class="answer2"><p>耳鼻喉：听力及专科检查，必要时头颅磁共振</p></div>
+            <div class="answer3"><p>颈部血管：血脂全项、颈部超声、颈部磁共振</p></div>
+            <div class="answer4"><p>甲状腺：甲状腺功能5项；甲状腺功能3项；甲状腺US；CT</p></div>
+            <div class="answer5"><p>心脏：血脂全项、心电图、心脏磁共振</p></div>
+            <div class="answer6"><p>肺脏：咳痰细胞检查、肺功能、肺CT</p></div>
+            <div class="answera1"><p>肝脏或胆囊：血常规、肝功化验、肿瘤标识物、上腹部超声、PET-CT、胃镜</p></div>
+            <div class="answer7"><p>脾脏：血常规、腹部US</p></div>
+            <div class="answer8"><p>胰腺：血常规、肿瘤标识物、上腹部超声、PET-CT</p></div>
+            <div class="answer9"><p>肾脏：血常规、肾功化验、上腹部超声、PET-CT</p></div>
+            <div class="answer10"><p>乳腺：ABVS、乳腺钼靶、乳腺磁共振、PEM</p></div>
+            <div class="answera2"><p>妇科：妇科TCT、HPV、盆腔超声；盆腔磁共振；CA125</p></div>
+            <div class="answera3"><p>男性：盆腔超声、盆腔磁共振、PSA</p></div>
+            <div class="answer11"><p>骨骼肌肉系统：相应部位磁共振检查</p></div>
+            <div class="answera4"><p>慎重选择磁共振检查，需详细了解材质</p></div>
+            <div class="answer12"><p>不能选择X线检查，乳腺钼靶、CT、PET检查</p></div>
+            <div class="answer13"><p>女性激素检查、盆腔超声、盆腔磁共振</p></div>
+            <div class="answer14"><p>甲状腺功能5项、甲状腺功能3项、甲状腺超声、CT</p></div>
+            <div class="answer15"><p>过敏源检查、肺功能、肺CT</p></div>
+            <div class="answera5"><p>过敏源检查</p></div>
+            <div class="answer16"><p>盆腔超声、盆腔磁共振、PSA</p></div>
+            <div class="answer17"><p>血脂全项、心电图、心脏超声、心脏磁共振</p></div>
+            <div class="answer18"><p>血常规、大便检查、胃镜、尿检、腹部超声、盆腔磁共振</p></div>
+            <div class="answer19"><p>RPR定性检查</p></div>
+            <div class="answer20"><p>尿糖、空腹血糖、糖化血红蛋白、肾功化验、上腹部超声、眼科检查</p></div>
+            <div class="answer21"><p>PET-CT癌筛；相应部位精密检查</p></div>
+            <div class="answer22"><p>胸肺CT</p></div>
+            <div class="answer23"><p>血脂全项、头颈部磁共振、心电图、心脏磁共振；肾功化验、上腹部超声、眼科检查</p></div>
+            <div class="answer24"><p>血脂全项、头颈部磁共振；心电图；心脏磁共振；肾功化验、上腹部超声；内脏CT脂肪扫描</p></div>
+            <div class="answer25"><p>血常规、肿瘤标识物、幽门螺旋杆菌检查、胃镜</p></div>
+            <div class="answer26"><p>血常规、便检、肿瘤标识物、肠镜</p></div>
+            <div class="answer27"><p>血常规、肝功化验、肿瘤标识物、上腹部超声、PET-CT</p></div>
+            <div class="answera6"><p>血常规、肾功化验、上腹部超声、PET-CT</p></div>
+            <div class="answera7"><p>眼科检查：视力、裂隙灯检查、眼底、眼压</p></div>
+            <div class="answer28"><p>听力及专科检查，必要时头颅MRI</p></div>
+        </div>
+    </section>
+</div>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script>
+    $(function () {
+        //除了第一题显示，其他题目都隐藏
+        $('div[class^=ques]:not(:first)').hide();
+        //所有答案都隐藏
+        $('div[class^=ans]').hide();
+    });
+
+    function showDiv(i) {
+        var $div = $('div[class^=ques]');
+        $($div).hide();
+        $("#" + i).show();
+    }
+
+    function showLittle(i) {
+        $('#ques' + i).show();
+    }
+    //提交按钮
+    $('button').click(function () {
+        $('div[class^=ques]').hide();
+        $('div[class^=answer]').show();
+        var an = document.getElementsByClassName('an');
+        for (var i = 0; i < an.length; i++) {
+            if (!an[i].checked) {
+                $('.answer' + i).hide();
+            }
+        }
+        if (!document.getElementsByClassName('a1').checked) {
+            $('.answera1').hide();
+        }
+        if (!document.getElementsByClassName('a2').checked) {
+            $('.answera2').hide();
+        }
+        if (!document.getElementsByClassName('a3').checked) {
+            $('.answera3').hide();
+        }
+        if (!document.getElementsByClassName('a4').checked) {
+            $('.answera4').hide();
+        }
+        if (!document.getElementsByClassName('a5').checked) {
+            $('.answera5').hide();
+        }
+        if (!document.getElementsByClassName('a6').checked) {
+            $('.answera6').hide();
+        }
+        if (!document.getElementsByClassName('a7').checked) {
+            $('.answera7').hide();
+        }
+    });
+
+
+</script>
+</body>
+</html>

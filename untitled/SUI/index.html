@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>新建待办事项</title>
+    <link href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="http://g.alicdn.com/sj/dpl/1.5.1/js/sui.min.js"></script>
+    <style>
+        html {
+            max-width: 640px;
+            min-width: 320px;
+        }
+    </style>
+    <script src="../js/jquery-3.1.1.js"></script>
+</head>
+<body>
+<ul class="sui-breadcrumb">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">手机数码、电脑办公</a></li>
+    <li class="active">智能手机</li>
+</ul>
+<div class="sui-msg msg-large msg-block msg-success">
+    <div class="msg-con">
+        新的待办事项”晚上9点拿夜宵”创建成功！
+    </div>
+    <s class="msg-icon"></s>
+</div>
+<form class="sui-form form-horizontal" action="" method="post" id="servingForm">
+    <div class="control-group">
+        <label class="control-label">名称：</label>
+        <div class="controls">
+            <input class="input-xlarge" type='text'/>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">时间：</label>
+        <div class="controls">
+            <select class="input-medium " name='month'>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">8</option>
+                <option value="8">9</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            月
+            <select class="input-medium " name='date'>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">8</option>
+                <option value="8">9</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            日
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">补充说明：</label>
+        <div class="controls">
+            <textarea class='input-xlarge'></textarea>
+        </div>
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            <button class="sui-btn btn-primary btn-xlarge">创建待办事项</button>
+        </div>
+    </div>
+</form>
+</body>
+<script>
+    $(function () {
+        var now = new Date(); //当前日期
+        var week = now.getDay();
+        var myDate = new Date();
+        //获取当前年
+        var year=myDate.getFullYear();
+        //获取当前月
+        var month=myDate.getMonth()+1;
+        //获取当前日
+        var day=myDate.getDate();
+        day=29;
+        var date;
+//        var dayArr = [now];
+        for (var i = 1; i < 8; i++) {
+            day++;
+            if (month == 2) {
+                if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+                    date = 29;
+                    if(day>date){
+                        day=1;
+                        month++;
+                    }
+                }
+                else {
+                    date = 28;
+                    if(day>date){
+                        day=1;
+                        month++;
+                    }
+                }
+            }
+            else {
+                if ((month == 4) || (month == 6) || (month == 9) || (month == 11)) {
+                    date = 30;
+                    if(day>date){
+                        day=1;
+                        month++;
+                    }
+                }
+                else {
+                    date = 31;
+                    if(day>date){
+                        day=1;
+                        month++;
+                    }
+                }
+            }
+            if(month>12){
+                month=1;
+                year++;
+            }
+            var arys=year+"-"+month+"-"+day;    //日期为输入日期，格式为 2013-3-10
+            var ssdate=new Date(arys);
+            var num;
+            switch (ssdate.getDay()) {
+                case 0:
+                    num = "星期天";
+                    break;
+                case 1:
+                    num = "星期一";
+                    break;
+                case 2:
+                    num = "星期二";
+                    break;
+                case 3:
+                    num = "星期三";
+                    break;
+                case 4:
+                    num = "星期四";
+                    break;
+                case 5:
+                    num = "星期五";
+                    break;
+                case 6:
+                    num = "星期六";
+                    break;
+            }
+            console.log(year + "年" + month + "月" + day + "日"+num);
+        }
+    } );
+
+</script>
+</html>

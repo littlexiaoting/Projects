@@ -1,0 +1,127 @@
+@charset "UTF-8";
+.nav {
+    width: 100%;
+    background: #52707F;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav h2 {
+    background-color: rgba(66,99,116,0.5);
+    width: 100%;
+    font-size: 1.2rem;
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 5rem;
+    color: #fff;
+}
+.nav h2 p {
+    float: right;
+    padding-right: 1rem;
+}
+
+.nav .table {
+    width: 100%;
+}
+
+.nav .table li {
+    width: 100%;
+    font-size: 0.9rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.nav .table li ul {
+    width: 100%;
+    display: flex;
+    -webkit-display: flex;
+}
+
+.nav .table li ul li {
+    flex: 1;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+.order_list {
+    width: 100%;
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+}
+
+.order_list .list_title {
+    background-color: #fff;
+    padding: 0 1rem;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.order_list .list_title p {
+    display: inline-block;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.order_list .list_body {
+    background-color: rgba(66, 99, 116, 0.1);
+    padding-left: 1rem;
+
+}
+
+.order_list .list_body .list_body_bg {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.order_list .list_body .list_body_bg li:first-child {
+    flex: 1;
+}
+
+.order_list .list_body .list_body_bg li:first-child img {
+    width: 90%;
+    margin-top: 9%;
+}
+
+.order_list .list_body .list_body_bg li:last-child {
+    flex: 2;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_right {
+    width: 100%;
+    margin-top: 6%;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_right li {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_right li .cart {
+    float: right;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 3%;
+    background-color: #FFA018;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    border-radius: 4px;
+    width: 40%;
+}
+
+.more{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.9rem;
+    background-color: #fff;
+}

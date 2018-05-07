@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/settlement.css">
+</head>
+<body>
+<form action="cart.html">
+    <div class="header">
+        <a href="cart.html"><i class="icon-arrow_back"></i></a>
+        <h2>请选择配货时间</h2>
+    </div>
+    <p>
+        <label id="date"></label>
+        <label id="time"></label>
+    </p>
+    <ul class="dateAndTime">
+        <li class="Date">
+            <ul class="date">
+                <li id="date1"></li>
+                <li id="date2"></li>
+                <li id="date3"></li>
+                <li id="date4"></li>
+                <li id="date5"></li>
+                <li id="date6"></li>
+                <li id="date7"></li>
+            </ul>
+        </li>
+        <li class="Time">
+            <ul class="time">
+                <li>09:00-10:00</li>
+                <li>10:30-11:00</li>
+            </ul>
+        </li>
+    </ul>
+    <button type="button" id="submit">确 定</button>
+</form>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/layer/layer.js"></script>
+<script src="js/settlement.js"></script>
+<script>
+    $(function () {
+        var now = new Date(); //当前日期
+        var week = now.getDay();
+        var myDate = new Date();
+        //获取当前年
+        var year=myDate.getFullYear();
+        //获取当前月
+        var month=myDate.getMonth()+1;
+        //获取当前日
+        var day=myDate.getDate();
+        var date;
+        var dayArr = new Array();
+        for (var i = 1; i < 8; i++) {
+            day++;
+            if (month == 2) {
+                if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+                    date = 29;
+                    if(day>date){
+                        day=1;
+                        month++;
+                    }
+                }
+                else {
+                    date = 28;
+                    if(day>date){
+                        day=1;
+                        month++;
+                    }
+                }
+            }
+            else {
+                if ((month == 4) || (month == 6) || (month == 9) || (month == 11)) {
+                    date = 30;
+                    if(day>date){
+                        day=1;
+                        month++;
+                    }
+                }
+                else {
+                    date = 31;
+                    if(day>date){
+                        day=1;
+                        month++;
+                    }
+                }
+            }
+            if(month>12){
+                month=1;
+                year++;
+            }
+
+            if(day<10){
+                day="0"+day;
+            }
+            var arys=year+"-"+month+"-"+day;    //日期为输入日期，格式为 2013-3-10
+            var ssdate=new Date(arys);
+            var num;
+            switch (ssdate.getDay()) {
+                case 0:
+                    num = "星期天";
+                    break;
+                case 1:
+                    num = "星期一";
+                    break;
+                case 2:
+                    num = "星期二";
+                    break;
+                case 3:
+                    num = "星期三";
+                    break;
+                case 4:
+                    num = "星期四";
+                    break;
+                case 5:
+                    num = "星期五";
+                    break;
+                case 6:
+                    num = "星期六";
+                    break;
+            }
+//            dayArr[i]=year + "年" + month + "月" + day + "日"+num;
+            dayArr[i]=month + "月" + day + "日"+num;
+            console.log(dayArr[i]);
+        }
+        $('#date1').html(dayArr[1]);
+        $('#date2').html(dayArr[2]);
+        $('#date3').html(dayArr[3]);
+        $('#date4').html(dayArr[4]);
+        $('#date5').html(dayArr[5]);
+        $('#date6').html(dayArr[6]);
+        $('#date7').html(dayArr[7]);
+    } );
+</script>
+</body>
+</html>

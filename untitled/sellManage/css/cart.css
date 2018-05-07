@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/*清除input[type="number"]框中的小箭头*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.order_list {
+    width: 100%;
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+}
+
+.order_list .list_title {
+    background-color: #fff;
+    padding: 0 1rem;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.order_list .list_title p {
+    display: inline-block;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.order_list .list_title span {
+    float: right;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.order_list .list_body {
+    background-color: rgba(66, 99, 116, 0.1);
+    padding-left: 1rem;
+
+}
+
+.order_list .list_body .list_body_bg {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.order_list .list_body .list_body_bg li:first-child {
+    flex: 1;
+}
+
+.order_list .list_body .list_body_bg li:first-child img {
+    width: 80%;
+    margin-top: 10%;
+    margin-top: 3px;
+}
+
+.order_list .list_body .list_body_bg li:last-child {
+    flex: 2;
+    height: 100%;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_right {
+    width: 100%;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_right li {
+    width: 100%;
+    margin-top: 3.5%;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_right li:last-child p {
+    display: inline-block;
+    float: right;
+    padding-right: 1rem;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_right li i, input[type='text'] {
+    color: #FE771D;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_right li span {
+    float: right;
+    padding-right: 1rem;
+}
+
+/*删除模块*/
+.order_list .list_body .list_body_bg li:last-child .list_body_delete {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_delete li {
+    flex: 1;
+    padding-top: 17%;
+    height: 100%;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_delete .reduce, .plus {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_delete input {
+    background-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_delete li:last-child {
+    width: 100%;
+    height: 100%;
+    padding: 0 0;
+}
+
+.order_list .list_body .list_body_bg li:last-child .list_body_delete li:last-child .delete {
+    display: inline-block;
+    width: 100%;
+    font-size: 1rem;
+    height: 100%;
+    background-color: #52707F;
+}
+.order_list .list_body .list_body_bg li:last-child .list_body_delete li:last-child .delete i {
+    display: inline-block;
+    width: 100%;
+    height: 1rem;
+    margin-top: 70%;
+    margin-bottom: 80%;
+    text-align: center;
+}
+
+/*删除模块结束*/
+/*底部*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #F3F3F3;
+    background-color: #fff;
+    height: 3.5rem;
+    font-size: 1rem;
+    max-width: 640px;
+    min-width: 320px;
+    box-shadow: 0 -1px 1px #d9d4d2;
+}
+
+.footer>ul {
+    display: flex;
+}
+
+.footer ul .first {
+   flex: 8;
+    padding-left: 1rem;
+}
+.footer ul .second {
+   flex: 2;
+
+}
+
+.footer ul .first .time {
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.footer ul .first .pay  {
+    height: 2rem;
+    line-height: 2rem;
+}
+.footer li i {
+    color: #F78A41;
+}
+
+ #choice,#submit{
+    display: inline-block;
+    background-color: #52707F;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    font-size: 1rem;
+}
+#choice{
+    width: 28%;
+    white-space:nowrap;
+    line-height: 1.5rem;
+}
+#submit{
+    width: 100%;
+    height: 3.5rem;
+}
+
+/*底部结束*/

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+  </head>
+  <body>
+    <div id="example"></div>
+    <div id="example1"></div>
+
+    <script type="text/babel">
+        var items = [
+            <h1>xiaoting</h1>,
+            <h2>liuchenglong</h2>
+        ];
+
+        ReactDOM.render(
+                <div>
+                    {
+                        items
+                    }
+                </div>,
+            document.getElementById("example")
+        );
+    </script>
+  </body>
+</html>

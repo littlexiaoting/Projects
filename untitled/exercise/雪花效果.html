@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>雪花效果</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            overflow: hidden;/*如果不写，超出屏幕会有滚动条*/
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    var flakeColor="#fff";//雪花颜色
+    var flake=$("div").css("position","absolute").html("❄");
+    $(function () {
+        var fwidth=$(window).width();//屏幕宽
+        var fheight=$(window).height();//屏幕高
+        setInterval(function () {
+            var startLeft=Math.random()*fwidth;//起始点距离屏幕左边距离
+            var endLeft=Math.random()*fwidth;//终点距离屏幕左边距离
+            var durationTime=4000+6000*Math.random();//雪花飘落时间
+            var flakeSize=5+50*Math.random();//雪花的大小
+            var startOpacity=.7+.3*Math.random();//雪花起始透明度
+            var endOpacity=.4+.3*Math.random();//雪花终点透明度
+
+            flake.clone().appendTo($("body")).css({
+                "left":startLeft,
+                "font-size":flakeSize,
+                "opacity":startOpacity,
+                "color":flakeColor,
+                "top":"-55px"
+            }).animate({
+                "top":fheight,
+                "left":endLeft,
+                "opacity":endOpacity,
+            },durationTime,function () {
+                $(this).remove();//动画结束后把当前对象移除
+            })
+        },200)
+
+    })
+</script>
+</body>
+</html>
